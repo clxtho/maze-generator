@@ -170,6 +170,12 @@
 				<label for="solveColor">Solve Color</label> 
 				<input type="text" class="" id="solveColor" name="solveColor" value="#cc3737" pattern="^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$"><div class="color-sample" style="background-color:#cc3737"></div>
 			</div>
+			
+			<button class="gen" id="bg">background color</button>
+			<button class="gen" id="mc">maze color</button>
+			<button class="gen" id="sc">solution color</button>
+			
+			
 			<div id="generate">
 				<button id="create-maze" onclick="initMaze();" class='hide'>Generate Maze</button>
 				<button id="solve" onclick="initSolve();" class='hide'>Solve Maze</button>
